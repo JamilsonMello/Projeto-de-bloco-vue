@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #beee3b;
+}
+
+h1, h2, h3, a, p, small, label {
+    color: #484848;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
