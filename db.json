@@ -10,7 +10,7 @@
       "id": 1
     },
     {
-      "title": "Restaurante Dona Benta",
+      "title": "Restaurante Esquina",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",
@@ -19,7 +19,7 @@
       "id": 3
     },
     {
-      "title": "Restaurante Dona Benta",
+      "title": "Buteco",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",
@@ -31,7 +31,7 @@
   "places": [
     {
       "id": 1,
-      "title": "Restaurante Dona Benta",
+      "title": "Restaurante Passione",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",
@@ -39,7 +39,7 @@
     },
     {
       "id": 2,
-      "title": "Restaurante Dona Benta",
+      "title": "Restaurante Coco Bambu",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",
@@ -47,7 +47,7 @@
     },
     {
       "id": 3,
-      "title": "Restaurante Dona Benta",
+      "title": "Restaurante do Don",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",
@@ -55,7 +55,7 @@
     },
     {
       "id": 4,
-      "title": "Restaurante Dona Benta",
+      "title": "Restaurante ao lado",
       "category": "1",
       "image": "https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg",
       "address": "Fortaleza-CE",

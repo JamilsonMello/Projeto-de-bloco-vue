@@ -13,6 +13,15 @@ export default {
     };
   },
   methods: {
+    filter(array, value) {
+      function find(object) {
+        return Object.values(object).some(
+          (v) => v === value || (v && typeof v === "object" && find(v))
+        );
+      }
+
+      return array.filter(find);
+    },
     async onClickInStar(id) {
       let index = this.listCategories.findIndex((item) => item.id === id);
 
@@ -67,7 +76,9 @@ export default {
           this.categories.includes(value.category)
         );
 
-        const result = placesFinded.map((element) => {
+        const resultFilter = this.filter(placesFinded, this.searchInput);
+
+        const result = resultFilter.map((element) => {
           let index = stars.findIndex((star) => star.originalId === element.id);
 
           if (index !== -1) {
