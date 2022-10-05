@@ -22,7 +22,9 @@ export default {
 
       return array.filter(find);
     },
-    async onClickInStar(id) {
+    async onClickInStar(id, event) {
+      event.preventDefault();
+      event.stopPropagation();
       let index = this.listCategories.findIndex((item) => item.id === id);
 
       if (index !== -1) {
@@ -140,7 +142,7 @@ export default {
             <p>{{ item.title }}</p>
             <small>{{ item.address }}</small>
           </div>
-          <button class="icon-star" @click="onClickInStar(item.id)">
+          <button class="icon-star" @click="onClickInStar(item.id, $event)">
             <font-awesome-icon
               icon="star"
               :style="{
